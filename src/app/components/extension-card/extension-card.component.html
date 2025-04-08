@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card__infos">
+        <img [src]="data.logo" alt="card-logo">
+        <div class="card__infos__text">
+            <h3>{{data.name}}</h3>
+            <p>{{data.description}}</p>
+        </div>
+    </div>
+    <div class="card__actions">
+        <button>Remove</button>
+        <label class="switch">
+            <input type="checkbox" [(ngModel)]="data.isActive">
+            <span class="slider"></span>
+        </label>
+    </div>
+</div>

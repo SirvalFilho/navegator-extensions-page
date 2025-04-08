@@ -1,0 +1,46 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 8px;
+    
+}
+
+.filter__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px 0 8px;
+}
+
+.filter__list > h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.filter__list .filter__options{
+    display: flex;
+    gap: 8px;
+}
+
+.filter__list .filter__options > button{
+    padding: 8px 12px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--btn-filter-color);
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.extensions{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 16px;
+    align-items: start;
+}
+

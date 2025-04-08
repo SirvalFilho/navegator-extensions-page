@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="filter__list">
+        <h1>Extensions List</h1>
+        <div class="filter__options">
+            <button (click)="getAllExtensions()">All</button>
+            <button (click)="getActiveExtensions()">Active</button>
+            <button (click)="getInactiveExtensions()">Inactive</button>
+        </div>
+    </div>
+    <div class="extensions">
+        <app-extension-card *ngFor="let extension of dadosVisiveis" [data]="extension"></app-extension-card>
+    </div>
+</div>
