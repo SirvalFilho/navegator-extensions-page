@@ -1,27 +1,58 @@
-# Desafio1Ng
+# 🚀 Projeto Angular: Painel de Extensões com Tema Claro/Escuro
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+Este é meu primeiro projeto utilizando **Angular**! Desenvolvi uma aplicação simples, mas funcional, com foco em componentes, troca de tema e filtragem dinâmica de dados.
 
-## Development server
+<h1>
+  <a href="https://sirvalfilho.github.io/navegator-extensions-page/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🚀 Ver Projeto-d9534f?style=for-the-badge&logo=angular&logoColor=white" alt="Ver Projeto">
+  </a>
+</h1>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## 💡 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🌗 Alternância de Tema (Claro/Escuro)
+O usuário pode alternar entre o tema claro e escuro por meio de um botão. A mudança é feita dinamicamente, alterando a aparência da aplicação em tempo real com base na seleção do usuário.
 
-## Build
+### 🧩 Quadro de Extensões
+A aplicação apresenta um painel com uma lista de extensões, simulando o visual de extensões de navegador. Cada item é exibido como um card com informações visuais. Além disso, o usuário pode utilizar filtros para:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- 🔘 Mostrar todas as extensões  
+- ✅ Mostrar apenas as **ativas**  
+- ⛔ Mostrar apenas as **inativas**
 
-## Running unit tests
+A filtragem é aplicada de forma interativa, sem recarregar a página.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🛠️ Tecnologias Utilizadas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Angular** (CLI + Componentes)
+- **TypeScript**
+- **HTML5 & CSS3**
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📦 Como Executar o Projeto
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+2. Acesse a pasta do projeto:
+```bash
+cd seu-repositorio
+```
+3. Instale as dependências:
+```bash
+npm install
+```
+4. Rode a aplicação:
+```bash
+ng serve
+```
+5. Acesse em seu navegador:
+
+```arduino
+http://localhost:4200
+```
